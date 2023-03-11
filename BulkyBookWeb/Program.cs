@@ -6,6 +6,7 @@ namespace BulkyBookWeb
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            //Services included with dependency injection
             // Add services to the container.
             builder.Services.AddRazorPages();
 
